@@ -388,6 +388,17 @@ ul li a{
     .right-col{
         display: none;
     }
+
+    .project-card{
+        width: 80.0rem;
+    }
+
+    .img-show{
+        height: 45.0rem;
+    }
+    .img-show img{
+        width: 70.0rem;
+    }
 }
 
 @media (max-width: 850px){
@@ -407,6 +418,10 @@ ul li a{
     }
     .home-cta{
         margin-top: 6.0rem;
+    }
+
+    footer ul li a{
+        font-size: 2.4rem;
     }
 }
 
@@ -446,6 +461,38 @@ ul li a{
     .home-cta a{
         font-size: 2.8rem;
     }
+
+    .project-card{
+        width: 100.0rem;
+    }
+    .card-text{
+        margin-top: 3.0rem;
+    }
+    .card-text h1{
+        font-size: 4.2rem;
+        margin-bottom: 3.0rem;
+    }
+
+    .card-text p{
+        margin-bottom: 3.0rem;
+        font-size: 3.2rem;
+    }
+
+    .img-show{
+        height: 50.0rem;
+    }
+
+    .img-show img{
+        width: 90.0rem;
+    }
+
+    .view-more{
+        font-size: 3.2rem;
+    }
+
+    footer ul li a{
+        font-size: 3.2rem;
+    }
 }
 
 @media (max-width: 490px){
@@ -467,6 +514,34 @@ ul li a{
     }
     .left-col p{
         text-align: center;
+    }
+
+    .project-card{
+        width: 100.0rem;
+    }
+    .card-text{
+        margin-top: 3.0rem;
+    }
+    .card-text h1{
+        font-size: 4.2rem;
+        margin-bottom: 3.0rem;
+    }
+
+    .card-text p{
+        margin-bottom: 3.0rem;
+        font-size: 3.2rem;
+    }
+
+    .img-show{
+        height: 50.0rem;
+    }
+
+    .img-show img{
+        width: 80.0rem;
+    }
+
+    .view-more{
+        font-size: 3.2rem;
     }
 }
 
