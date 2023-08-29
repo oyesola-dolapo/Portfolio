@@ -410,6 +410,15 @@ ul li a{
         display: block;
         font-size: 3.2rem;
     }
+
+    .social li a{
+        width: 4.0rem;
+        margin-left: 3.0rem;
+    }
+
+    .footer-nav li{
+        margin-left: 5.0rem;
+    }
 }
 
 @media (max-width: 750px){
