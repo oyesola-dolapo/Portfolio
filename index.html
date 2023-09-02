@@ -26,7 +26,43 @@
 
       <a href="#" class="talk">Let's Talk</a>
 
-      <div class="menu"><i class="fa-solid fa-bars"></i></div>
+      <div class="menu">
+        <button id="hamburger">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div id="menu-nav" class="menu-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <script>
+        const hamburger = 
+            document.getElementById("hamburger")
+        const menuNav = document.getElementById('menu-nav');
+
+        function closeMenu() {
+          menuNav.classList.remove('show-menu');
+      }
+
+        hamburger.addEventListener('click', () =>{
+            menuNav.classList.toggle('show-menu')
+        } )   
+        
+        document.addEventListener('click', (event) => {
+          if (!menuNav.contains(event.target) && event.target !== hamburger) {
+              closeMenu();
+          }
+      });
+      </script>
+
     </nav>
     <div class="container">
 
