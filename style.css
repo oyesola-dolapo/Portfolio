@@ -464,7 +464,7 @@ ul li a{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         right: 2.0rem;
         width: 30.0rem;
-        top: 60px;
+        top: 8.5em;
         padding-bottom: 1.8rem;
     }
 
@@ -501,6 +501,10 @@ ul li a{
     HTML{
         font-size: 6px;
     }
+
+    .menu-nav{
+        top: 10.0rem;
+    }
     .home-cta{
         margin-top: 6.0rem;
     }
@@ -528,6 +532,10 @@ ul li a{
     .menu-nav ul li a{
         font-size: 3.2rem;
     }
+
+    .menu-nav{
+        top: 12.0rem;
+    }
 }
 
 @media (max-width: 550px){
@@ -539,6 +547,9 @@ ul li a{
         height: 4.0rem;
     }
 
+    .menu-nav{
+        top: 15.0rem;
+    }
     #hamburger span, #hamburger::after{
         height: 0.6rem;
     }
